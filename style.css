@@ -1,0 +1,425 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{ -moz-box-sizing: border-box; 
+ -webkit-box-sizing: border-box; 
+ box-sizing: border-box; }
+
+body{
+	background: #efebe3;
+
+}
+
+header h1{
+	font-size: 25px;
+	text-align: center;
+	padding: 50px;
+	text-transform: uppercase;
+		font-family: Helvetica;
+	font-weight: bold;
+}
+
+header{
+	position: relative;
+	width: 980px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: white;
+	border-bottom: 1px solid #efefef;
+}
+
+header nav{
+	position: relative;
+	top: 30px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+header nav ul li a{
+	float: left;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	display: block;
+	color: #9acc30;
+	font-family: Helvetica;
+}
+
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/***Begin Home Styling***/
+
+.homeintro{
+	position: relative;
+	width: 980px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url(img/blogheader.png);
+	background-repeat: no-repeat;
+}
+
+/***Begin About Styling***/
+
+.about{
+	position: relative;
+	width: 980px;
+	height: 400px;
+	background-color: white;
+	margin: 0 auto;
+	border-top: 1px solid gray;
+}
+
+.about img{
+	width: 200px;
+	margin: 100px 0 0 50px;
+	float: left;
+}
+
+.bio{
+	position: relative;
+	float: right;
+	width: 450px;
+	margin: 100px 50px 0 0;
+
+}
+
+.bio h1{
+	font-size: 20px;
+	font-family: 'Helvetica';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+
+}
+
+.bio p{
+	font-size: 16px;
+	line-height: 22px;
+	list-style: .5px;
+	padding: 20px 0 0 0;
+	font-family: "proxima-nova";
+}
+
+/****Begin Kariel Styles****/
+
+.kariel{
+	position: relative;
+	width: 980px;
+	height: 500px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.kariel img{
+	width: 250px;
+	margin: 100px 0 0 50px;
+	float: left;
+}
+
+
+.karielbio{
+	position: relative;
+	float: right;
+	width: 450px;
+	margin: 100px 50px 0 0;
+}
+
+.karielbio h1{
+	font-size: 20px;
+	font-family: 'Helvetica';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.karielbio p{
+		font-size: 16px;
+	line-height: 22px;
+	list-style: .5px;
+	padding: 20px 0 0 0;
+	font-family: "proxima-nova";
+}
+
+
+/****Begin Kitteh Styles****/
+
+
+.kitteh{
+	position: relative;
+	width: 980px;
+	height: 500px;
+	background-color: white;
+	margin: 0 auto;
+		border-top: 1px solid gray;
+
+}
+
+.kitteh img{
+	position: relative;
+	top: 100px;
+	left: 50px;
+	width: 240px;
+	float: left;
+
+}
+
+
+.kittehbio{
+	position: relative;
+	float: right;
+	width: 450px;
+	margin: 100px 50px 0 0;
+
+
+}
+
+.kittehbio h1{
+	font-size: 20px;
+	font-family: 'Helvetica';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.kittehbio p{
+	font-size: 16px;
+	line-height: 22px;
+	list-style: .5px;
+	padding: 20px 0 0 0;
+	font-family: "proxima-nova";
+}
+
+
+/***Begin WoW Styles***/
+
+
+
+
+/***Begin Favorites****/
+
+.favorites{
+	position: relative;
+	width: 980px;
+	height: 600px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.favorites h1{
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 50px 0 50px 0;
+	font-family: 'Helvetica';
+
+}
+
+
+.favcontain{
+	position: relative;
+	width: 500px;
+	left: 285px;
+}
+
+
+.favbox{
+	position: relative;
+	width: 230px;
+	height: 200px;
+	float: left;
+	padding: 20px;
+}
+
+.favbox h2{
+	padding: 0 0 20px 0;
+	font-family: 'Helvetica';
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.favorites ul li{
+	padding: 0 0 10px 0;
+	font-size: 14px;
+}
+
+.favorites ul li a{
+	text-decoration: none;
+	letter-spacing: .2px;
+		color: #9acc30;
+
+}
+
+.favorites ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/****Begin Photo Styles***/
+
+.photos{
+	position: relative;
+	width: 980px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.photos h1{
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 50px 0 50px 0;
+	font-family: 'Helvetica';
+
+}
+
+.shotcontainer{
+	position: relative;
+	width: 880px;
+	margin: 0 auto;
+
+}
+
+.shotcontainer img{
+	width: 220px;
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+
+/***Begin Film Styles***/
+
+.films{
+	position: relative;
+	width: 980px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.films h1{
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 50px 0 50px 0;
+	font-family: 'Helvetica';
+}
+
+.filmcontain iframe{
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+.filmcontain h2{
+		font-size: 20px;
+	font-family: 'Helvetica';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	float: right;
+	margin: 0 120px 0 0;
+}
+
+.filmcontain p{
+	font-size: 16px;
+	width: 300px;
+	float: right;
+	margin: 30px 55px 0 0;
+	line-height: 20px;
+}
+
+/***Begin Cookie Styling***/
+
+
+.cookies{
+	position: relative;;
+	width: 980px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.cookies h1{
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 50px 0 50px 0;
+	font-family: 'Helvetica';
+}
+
+.cookies img{
+
+	position: relative;
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+}
+
+/***Begin pep talk Styling***/
+
+.peptalk{
+		position: relative;;
+	width: 980px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.peptalk h1{
+		text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 50px 0 50px 0;
+	font-family: 'Helvetica';
+}
+
+
+
