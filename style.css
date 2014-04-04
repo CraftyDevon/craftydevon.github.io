@@ -72,19 +72,28 @@ header{
 	margin: 0 auto;
 	background-color: white;
 	border-bottom: 1px solid #efefef;
+
+}
+
+header{
+	transition: background 0.9s ease;
+}
+
+header:hover{
+	background-color: #efebe3;
 }
 
 header nav{
 	position: relative;
 	top: 30px;
-	width: 900px;
+	width: 960px;
 	margin: 0 auto;
 }
 
 
 header nav ul li a{
 	float: left;
-	padding: 5px 10px;
+	padding: 5px 14px;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: .5px;
@@ -94,7 +103,8 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-	text-decoration: underline;
+	transition: color 0.9s ease;
+	color: #92B940;
 }
 
 
@@ -124,6 +134,10 @@ header nav ul li a:hover{
 	width: 200px;
 	margin: 100px 0 0 50px;
 	float: left;
+}
+
+.about img:hover{
+	-webkit-transform: rotate(10deg);
 }
 
 .bio{
@@ -165,6 +179,10 @@ header nav ul li a:hover{
 	width: 250px;
 	margin: 100px 0 0 50px;
 	float: left;
+}
+
+.kariel img:hover{
+	-webkit-transform: rotate(10deg);
 }
 
 
@@ -210,6 +228,12 @@ header nav ul li a:hover{
 	left: 50px;
 	width: 240px;
 	float: left;
+
+}
+
+
+.kitteh img:hover{
+	-webkit-transform: rotate(10deg);
 
 }
 
@@ -332,9 +356,38 @@ header nav ul li a:hover{
 .shotcontainer img{
 	width: 220px;
 	float: left;
-	padding: 0 20px 0 0;
+	display: block;
+	padding: 0 10px 0 0;
+	opacity: 0.6;
 }
 
+
+.shotcontainer img.ph1{
+	z-index: 1;
+}
+
+.shotcontainer img.ph2{
+	z-index: 2;
+}
+.shotcontainer img.ph3{
+	z-index: 4;
+}
+.shotcontainer img.ph4{
+	z-index: 3;
+}
+
+
+.shotcontainer img:hover{
+	transition: opacity .5s ease;
+	transition: margin .5s ease;
+
+}
+
+.shotcontainer img:hover{
+	opacity: 1;
+	margin-top: 30px;
+	z-index: 100 !important;
+}
 
 /***Begin Film Styles***/
 
